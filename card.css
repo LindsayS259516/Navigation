@@ -42,3 +42,5 @@ h5 { font-size: 90%; font-weight: bold; margin-top: 4px; margin-bottom: 8px; col
 img { max-width: 97%; max-height: 100px; object-fit: fill; object-position: center bottom; display: block; margin-left: auto; margin-right: auto; }
 
 p.big {line-height: 1.8;}
+
+p {font-size:11px; font-family: verdana, sans-serif;}
