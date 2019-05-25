@@ -1,27 +1,40 @@
-#head {padding: 5px 20px 5px 20px; text-align: center; font-size: 14px;}
+#head { padding: 20px; color: white; font-size: 18px; }
+#head img { float:left; }
 
-#left {float: left; width: 20%; background: #00284d; color: white;}
+#left { float: left; width: 20%; margin-top: 10px;}
 
-#right {float:left; width: 75%;}
+#right { float:left; width: 79%; margin-top: 10px;margind-left: 15px;}
 
-#footer {float:center; clear:both; background: #00284d; color: white; text-align: center;}
+#footer { boder: 3px black solid; background-color: #0000e6;  padding: 10px; text-align: center; height: 100px; color: white;}
 
-#nav { align: left; width: 91%; height: 30px; padding:5px 20px 20px 20px; background: #00284d; color: white; }
+body {font-family: verdana, sans-serif; background-color: #ececf9; padding: 15px; margin: 0px 50px 50px 25px;font-size:11;}
+ 
 
-ul { list-style-type: none; margin: 0; padding: 0;}
+h1 { font-size: 175%; font-weight: normal; margin-bottom: 5px; color:#262626; font-weight: bold; font-family: Georgia, serif; text-align: center; }
 
-ul.a {list-style-type: square; font-color="black"; padding-left: 20px;}
-ul.b {list-style-type: none;  padding: 15px 10px 30px 10px; text-align: left; text-decoration:none; color: white;}
 
-li {   float: left; }
+#menu ul{ margin-left: -2.5em;}
 
-li a { display: block; color: white; text-align: center; padding: 0px 20px; text-decoration:none; }
+#menu li{list-style-type: none; background-color:#0000e6; width:9em; float: right; text-align:center; color: white;}
 
-li a:hover { background-color: #00284d; font-weight: bold; color: #00e600}
+#menu a { text-decoration: none; color: white; display: block; margin-left: 2px;}
 
-.button { display: inline-block; padding: 5px 10px; font-size: 14px; cursor: pointer; text-align: center; margin-top: 10px;
-          outline: none; color: #262626; background-color: #c1c1d7; border: 2px solid #a6a6a6; border-radius: 4px; box-shadow: 0 5px #999;}
-.button:hover {background-color: #666ff; color:#63639c;}
-.button:active { background-color: #8383af; color:#cccccc; box-shadow: 0 5px #666; transform: translateY(4px);}
+#menu a:hover { color:  #000099; text-decoration: none; background-color: white; font-weight: bold; box-shadow: 3px 3px 3px 3px purple;}
 
-body {font-family: verdana, sans-serif; background-color: #ececf9; padding: 15px; margin: 0px 50px 50px 25px;font-size: 14px;}
+
+
+#menu_left ul{ margin-left: -2.5em;}
+
+#menu_left li{list-style-type: none; background-color:#0000e6; width: 15em; text-align:center; color: white; padding: 10px 10px 10px 10px;}
+
+#menu_left a { text-decoration: none; color: white; display: block; margin-left: 2px; padding: 10px 10px 10px 10px;}
+
+#menu_left a:hover { color:  #000099; text-decoration: none; background-color: white; font-weight: bold; box-shadow: 3px 3px 3px 3px purple;}
+
+
+
+#button_center {text-align: center;}
+#button_center .button { float: centerleft; padding: 5px 10px; font-size: 14px; cursor: pointer; text-align: center; margin-top: 10px;
+          outline: none; color: #262626; background-color: #FFC300; border: 2px solid #FF8D33; border-radius: 4px; box-shadow: 0 5px #999;}
+#button_center .button:hover {background-color: #FF8D33; color:#0000ff; border: 2px solid #FFC300;}
+#button_center .button:active { background-color: #8383af; color:#cccccc; box-shadow: 0 5px #666; transform: translateY(4px);}
