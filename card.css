@@ -44,3 +44,5 @@ img { max-width: 97%; max-height: 100px; object-fit: fill; object-position: cent
 p.big {line-height: 1.8;}
 
 p {font-size:11px; font-family: verdana, sans-serif;}
+
+body {font-family: verdana, sans-serif; background-color: #ececf9; padding: 15px; margin: 0px 50px 50px 25px;}
